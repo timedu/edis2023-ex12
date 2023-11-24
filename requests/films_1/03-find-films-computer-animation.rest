@@ -1,0 +1,15 @@
+POST http://localhost:5001
+content-type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query($genre: String!) {
+  find_films(genre: $genre) {
+    name 
+    directed_by
+    initial_release_date
+  }
+}
+
+{
+    "genre": "Computer Animation"
+}

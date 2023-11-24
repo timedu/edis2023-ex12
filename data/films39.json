@@ -1,0 +1,274 @@
+{
+  "films": [
+    {
+      "id": 2,
+      "name": "9",
+      "directed_by": "Shane Acker",
+      "genre_id": 17,
+      "initial_release_date": "2005-04-21"
+    },
+    {
+      "id": 3,
+      "name": "300",
+      "directed_by": "Zack Snyder",
+      "genre_id": 2,
+      "initial_release_date": "2006-12-09"
+    },
+    {
+      "id": 5,
+      "name": "15 Park Avenue",
+      "directed_by": "Aparna Sen",
+      "genre_id": 8,
+      "initial_release_date": "2005-10-27"
+    },
+    {
+      "id": 8,
+      "name": "10.5: Apocalypse",
+      "directed_by": "John Lafia",
+      "genre_id": 23,
+      "initial_release_date": "2006-03-18"
+    },
+    {
+      "id": 12,
+      "name": "9 Songs",
+      "directed_by": "Michael Winterbottom",
+      "genre_id": 3,
+      "initial_release_date": "2004-05-16"
+    },
+    {
+      "id": 14,
+      "name": "10.5",
+      "directed_by": "John Lafia",
+      "genre_id": 23,
+      "initial_release_date": "2004-05-02"
+    },
+    {
+      "id": 15,
+      "name": "7½ Phere",
+      "directed_by": "Ishaan Trivedi",
+      "genre_id": 12,
+      "initial_release_date": "2005-07-29"
+    },
+    {
+      "id": 65,
+      "name": "Analyze That",
+      "directed_by": "Harold Ramis",
+      "genre_id": 13,
+      "initial_release_date": "2002-12-06"
+    },
+    {
+      "id": 72,
+      "name": "Anus Magillicutty",
+      "directed_by": "Morey Fineburgh",
+      "genre_id": 10,
+      "initial_release_date": "2003-04-15"
+    },
+    {
+      "id": 85,
+      "name": "Astitva",
+      "directed_by": "Mahesh Manjrekar",
+      "genre_id": 8,
+      "initial_release_date": "2000-10-06"
+    },
+    {
+      "id": 97,
+      "name": "Awesome; I Fuckin' Shot That!",
+      "directed_by": "Adam Yauch",
+      "genre_id": 18,
+      "initial_release_date": "2006-01-06"
+    },
+    {
+      "id": 104,
+      "name": "Baise Moi",
+      "directed_by": "Virginie Despentes",
+      "genre_id": 3,
+      "initial_release_date": "2000-06-28"
+    },
+    {
+      "id": 108,
+      "name": "Barbershop",
+      "directed_by": "Tim Story",
+      "genre_id": 1,
+      "initial_release_date": "2002-08-07"
+    },
+    {
+      "id": 112,
+      "name": "Batman: Mystery of the Batwoman",
+      "directed_by": "Curt Geda",
+      "genre_id": 7,
+      "initial_release_date": "2003-10-21"
+    },
+    {
+      "id": 117,
+      "name": "Beerfest",
+      "directed_by": "Jay Chandrasekhar",
+      "genre_id": 4,
+      "initial_release_date": "2006-08-25"
+    },
+    {
+      "id": 143,
+      "name": "Blissfully Yours",
+      "directed_by": "Apichatpong Weerasethakul",
+      "genre_id": 3,
+      "initial_release_date": "2002-05-17"
+    },
+    {
+      "id": 149,
+      "name": "Bollywood/Hollywood",
+      "directed_by": "Deepa Mehta",
+      "genre_id": 12,
+      "initial_release_date": "2002-10-25"
+    },
+    {
+      "id": 170,
+      "name": "Cast Away",
+      "directed_by": "Robert Zemeckis",
+      "genre_id": 6,
+      "initial_release_date": "2000-12-07"
+    },
+    {
+      "id": 192,
+      "name": "Christmas with the Kranks",
+      "directed_by": "Joe Roth",
+      "genre_id": 16,
+      "initial_release_date": "2004-11-24"
+    },
+    {
+      "id": 198,
+      "name": "Clerks II",
+      "directed_by": "Kevin Smith",
+      "genre_id": 13,
+      "initial_release_date": "2006-05-26"
+    },
+    {
+      "id": 217,
+      "name": "Cruel Intentions 3",
+      "directed_by": "Scott Ziehl",
+      "genre_id": 3,
+      "initial_release_date": "2004-05-25"
+    },
+    {
+      "id": 219,
+      "name": "Daisy",
+      "directed_by": "Andrew Lau",
+      "genre_id": 15,
+      "initial_release_date": "2006-03-09"
+    },
+    {
+      "id": 238,
+      "name": "Digital Monster X-Evolution",
+      "directed_by": "Hiroyuki Kakudō",
+      "genre_id": 17,
+      "initial_release_date": "2005-01-03"
+    },
+    {
+      "id": 240,
+      "name": "Dil Chahta Hai",
+      "directed_by": "Farhan Akhtar",
+      "genre_id": 12,
+      "initial_release_date": "2001-07-24"
+    },
+    {
+      "id": 241,
+      "name": "Dinosaur",
+      "directed_by": "Eric Leighton",
+      "genre_id": 17,
+      "initial_release_date": "2000-05-13"
+    },
+    {
+      "id": 249,
+      "name": "Don's Plum",
+      "directed_by": "R.D. Robb",
+      "genre_id": 11,
+      "initial_release_date": "2001-02-10"
+    },
+    {
+      "id": 254,
+      "name": "Dragon Boys",
+      "directed_by": "Jerry Ciccoritti",
+      "genre_id": 20
+    },
+    {
+      "id": 256,
+      "name": "Drawing Restraint 9",
+      "directed_by": "Matthew Barney",
+      "genre_id": 22,
+      "initial_release_date": "2005-07-01"
+    },
+    {
+      "id": 259,
+      "name": "Dumb &amp; Dumberer: When Harry Met Lloyd",
+      "directed_by": "Troy Miller",
+      "genre_id": 13,
+      "initial_release_date": "2003-06-13"
+    },
+    {
+      "id": 264,
+      "name": "Eight Crazy Nights",
+      "directed_by": "Seth Kearsley",
+      "genre_id": 16,
+      "initial_release_date": "2002-11-27"
+    },
+    {
+      "id": 273,
+      "name": "End of the Spear",
+      "directed_by": "Jim Hanon",
+      "genre_id": 24
+    },
+    {
+      "id": 280,
+      "name": "Everyone's Hero",
+      "directed_by": "Christopher Reeve",
+      "genre_id": 17,
+      "initial_release_date": "2006-09-15"
+    },
+    {
+      "id": 296,
+      "name": "Fighter in the Wind",
+      "directed_by": "Yang Yun-ho",
+      "genre_id": 5,
+      "initial_release_date": "2004-08-06"
+    },
+    {
+      "id": 301,
+      "name": "Finding Neverland",
+      "directed_by": "Marc Forster",
+      "genre_id": 19,
+      "initial_release_date": "2004-09-04"
+    },
+    {
+      "id": 304,
+      "name": "Flight of the Phoenix",
+      "directed_by": "John Moore",
+      "genre_id": 6,
+      "initial_release_date": "2004-12-17"
+    },
+    {
+      "id": 314,
+      "name": "Friday After Next",
+      "directed_by": "Marcus Raboy",
+      "genre_id": 13,
+      "initial_release_date": "2002-11-22"
+    },
+    {
+      "id": 332,
+      "name": "Gigli",
+      "directed_by": "Martin Brest",
+      "genre_id": 21,
+      "initial_release_date": "2003-07-27"
+    },
+    {
+      "id": 348,
+      "name": "GRODMIN",
+      "directed_by": "Jim Horwitz",
+      "genre_id": 9
+    },
+    {
+      "id": 358,
+      "name": "I Love New Year",
+      "directed_by": "Radhika Rao",
+      "genre_id": 14,
+      "initial_release_date": "2013-12-30"
+    }
+  ]
+}

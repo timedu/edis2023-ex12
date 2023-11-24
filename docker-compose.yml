@@ -1,0 +1,55 @@
+
+version: '3'
+
+x-graphql-server: &graphql-server
+  image: edis-python:round-12
+  build: 
+    dockerfile: ./dockerfiles/python.Dockerfile
+  volumes:
+    - ./app:/home/app
+
+x-graphql-films: &graphql-films
+  <<: *graphql-server
+  environment:
+    - SCHEMA_PATH=/home/app/supp/films_type_defs.gql
+    - REVIEW=${REVIEW:-0}
+
+services:
+
+  graphql-films1:
+    <<: *graphql-films
+    command: python -B main.py --review=${REVIEW:-0} --films=1
+    ports: 
+      - 5001:4000
+
+  graphql-films2:
+    <<: *graphql-films
+    command: python -B main.py --review=${REVIEW:-0} --films=2
+    ports: 
+      - 5002:4000
+
+  graphql-places:
+    <<: *graphql-server
+    command: python -B main.py
+    ports: 
+      - 4001:4000
+    environment:
+      - SCHEMA_PATH=/home/app/examples/places/type_defs.gql
+      - GQL_EXAMPLE=places
+
+  graphql-persons:
+    <<: *graphql-server
+    command: python -B main.py
+    ports: 
+      - 4002:4000
+    environment:
+      - SCHEMA_PATH=/home/app/examples/persons/type_defs.gql
+      - GQL_EXAMPLE=persons
+
+  json-server:
+    image: edis-node:round-12
+    build: 
+      dockerfile: ./dockerfiles/node.Dockerfile
+    volumes:
+      - ./data:/home/data
+    command: "json-server -H 0.0.0.0 -p 4000 -w /home/data/films39.json"

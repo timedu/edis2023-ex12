@@ -1,0 +1,14 @@
+
+type Film {
+  name: String!
+  genre: String!
+  directed_by: String!
+  initial_release_date: String
+}
+
+type Query {
+  find_films(genre: String!): [Film]!
+  count_films(genre: String): Int!
+  all_genres: [String!]
+}
+

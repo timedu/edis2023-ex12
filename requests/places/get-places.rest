@@ -1,0 +1,9 @@
+POST http://localhost:4001
+content-type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query {
+    places {
+        country, name 
+    }
+}

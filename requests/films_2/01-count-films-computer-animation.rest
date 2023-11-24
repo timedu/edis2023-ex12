@@ -1,0 +1,8 @@
+POST http://localhost:5002
+content-type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query {
+    count_films(genre: "Computer Animation")
+}
+

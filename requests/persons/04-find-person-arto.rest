@@ -1,0 +1,16 @@
+POST http://localhost:4002
+content-type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query($name: String!) {
+  find_person(name: $name) {
+    phone 
+    city 
+    street
+    id
+  }
+}
+
+{
+    "name": "Arto Hellas"
+}
